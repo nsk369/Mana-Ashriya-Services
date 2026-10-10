@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mana Ashriya Services | Premier Staffing & Recruitment Consultancy</title>
+  <title>Mana Ashriya Services | Talent Consulting & Recruitment Partner | Shamshabad, Hyderabad</title>
   
   <!-- SEO Meta Tags -->
-  <meta name="description" content="Mana Ashriya Services - Trusted HR & Talent Consulting partner in Shamshabad, Hyderabad. Connecting job seekers with leading partners like Swiggy Instamart and quick-commerce giants.">
-  <meta name="keywords" content="Mana Ashriya Services, Recruitment Shamshabad, Swiggy Instamart Jobs Hyderabad, HR Consultancy Hyderabad, Picker Packer jobs">
+  <meta name="description" content="Mana Ashriya Services is a premier HR staffing and recruitment consultancy in Shamshabad, Hyderabad founded by Muli Supriya Reddy. Partnering with top companies like Swiggy Instamart.">
+  <meta name="keywords" content="Mana Ashriya Services, Muli Supriya Reddy, Shamshabad Recruitment, Hyderabad Staffing Consultancy, Swiggy Instamart Jobs, Picker Packer Hyderabad">
   
   <!-- Google Fonts: Inter & Plus Jakarta Sans -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   
-  <!-- Font Awesome CDN for Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Font Awesome 6.5.1 CDN for clean vector icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -29,15 +29,13 @@
           },
           colors: {
             brand: {
-              50: '#eef2ff',
-              100: '#e0e7ff',
+              50: '#eff6ff',
+              100: '#dbeafe',
+              500: '#3b82f6',
               600: '#2563eb',
               700: '#1d4ed8',
               800: '#1e40af',
               900: '#0f172a',
-              navy: '#0b132b',
-              emerald: '#059669',
-              amber: '#d97706',
             }
           }
         }
@@ -46,86 +44,88 @@
   </script>
 
   <style>
-    /* Custom styling & animations */
-    .glass-card {
-      background: rgba(255, 255, 255, 0.95);
-      backdrop-filter: blur(12px);
+    .glass-nav {
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
     }
-    .hero-mesh {
-      background: radial-gradient(circle at 10% 20%, rgba(37, 99, 235, 0.08) 0%, transparent 40%),
-                  radial-gradient(circle at 90% 80%, rgba(5, 150, 105, 0.08) 0%, transparent 40%),
+    .hero-glow {
+      background: radial-gradient(circle at 20% 25%, rgba(37, 99, 235, 0.08) 0%, transparent 45%),
+                  radial-gradient(circle at 80% 75%, rgba(16, 185, 129, 0.08) 0%, transparent 45%),
                   linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
     }
-    .badge-pulse {
-      animation: pulse-ring 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    .gradient-border-wrap {
+      background: linear-gradient(135deg, #2563eb, #6366f1, #10b981);
     }
-    @keyframes pulse-ring {
-      0%, 100% { opacity: 1; transform: scale(1); }
-      50% { opacity: .75; transform: scale(1.05); }
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 6px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 9999px;
     }
   </style>
 </head>
 
-<body class="bg-slate-50 text-slate-800 antialiased font-sans flex flex-col min-h-screen">
+<body class="bg-slate-50 text-slate-800 antialiased font-sans flex flex-col min-h-screen custom-scrollbar">
 
-  <!-- Top Announcement Bar -->
-  <aside aria-label="Announcement" class="bg-gradient-to-r from-blue-900 via-indigo-900 to-slate-900 text-white text-xs sm:text-sm py-2 px-4 shadow-sm">
-    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
-      <div class="flex items-center space-x-2">
-        <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-semibold bg-emerald-500 text-white animate-pulse">
-          Active Drive
+  <div class="bg-slate-900 text-slate-200 text-xs sm:text-sm py-2.5 px-4 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2.5">
+      <div class="flex items-center gap-2">
+        <span class="inline-flex items-center px-2 py-0.5 rounded-full text-[11px] font-bold bg-emerald-500 text-white animate-pulse">
+          <i class="fa-solid fa-circle text-[6px] mr-1.5"></i> Active Hiring Drive
         </span>
-        <span class="text-slate-200">Urgent recruitment drive in progress for <strong>Swiggy Instamart</strong> across Hyderabad!</span>
+        <span class="text-slate-300">Swiggy Instamart open drive across Hyderabad hubs! Immediate joining available.</span>
       </div>
-      <div class="flex items-center space-x-4 text-xs font-medium">
-        <a href="tel:+919876543210" class="hover:text-amber-300 transition-colors flex items-center gap-1.5">
-          <i class="fa-solid fa-phone"></i> +91 98765 43210
+      <div class="flex items-center space-x-5 text-xs font-semibold">
+        <a href="tel:+919876543210" class="hover:text-white transition-colors flex items-center gap-1.5">
+          <i class="fa-solid fa-phone text-blue-400"></i> +91 98765 43210
         </a>
         <a href="https://wa.me/919876543210?text=Hello%20Mana%20Ashriya%20Services,%20I%20am%20inquiring%20about%20job%20openings" target="_blank" rel="noopener noreferrer" class="hover:text-emerald-300 transition-colors flex items-center gap-1.5 text-emerald-400">
-          <i class="fa-brands fa-whatsapp"></i> WhatsApp Helpdesk
+          <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp Support
         </a>
       </div>
     </div>
-  </aside>
+  </div>
 
-  <!-- Main Navigation -->
-  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm transition-all duration-200">
+  <header class="sticky top-0 z-40 glass-nav border-b border-slate-200 shadow-sm transition-all duration-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-20">
-        <!-- Brand Logo -->
+        
+        <!-- Logo -->
         <a href="#" class="flex items-center gap-3 group">
-          <div class="w-11 h-11 rounded-xl bg-gradient-to-tr from-blue-700 to-indigo-600 flex items-center justify-center text-white shadow-md shadow-blue-500/20 group-hover:scale-105 transition-transform">
+          <div class="w-11 h-11 rounded-xl bg-gradient-to-tr from-blue-700 via-indigo-600 to-blue-500 flex items-center justify-center text-white shadow-md shadow-blue-500/20 group-hover:scale-105 transition-transform">
             <span class="font-extrabold text-xl tracking-tighter">MA</span>
           </div>
           <div>
-            <div class="font-extrabold text-xl tracking-tight text-slate-900 group-hover:text-blue-700 transition-colors">
-              Mana Ashriya <span class="text-blue-600">Services</span>
+            <div class="font-black text-xl tracking-tight text-slate-900 group-hover:text-blue-700 transition-colors">
+              Mana Ashriya <span class="text-blue-600 font-extrabold">Services</span>
             </div>
-            <div class="text-[11px] font-semibold uppercase tracking-wider text-slate-400">
-              HR & Staffing Consultancy • Shamshabad
+            <div class="text-[10px] font-bold uppercase tracking-widest text-slate-500">
+              Talent & Staffing Consultancy • Shamshabad
             </div>
           </div>
         </a>
 
-        <!-- Desktop Navigation Links -->
-        <nav class="hidden md:flex items-center space-x-8 text-sm font-semibold text-slate-600">
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:flex items-center space-x-7 text-sm font-semibold text-slate-600">
           <a href="#about" class="hover:text-blue-600 transition-colors">About Us</a>
-          <a href="#services" class="hover:text-blue-600 transition-colors">Consulting Services</a>
+          <a href="#services" class="hover:text-blue-600 transition-colors">Our Services</a>
           <a href="#openings" class="hover:text-blue-600 transition-colors flex items-center gap-1.5">
             Job Openings
-            <span class="px-2 py-0.5 text-[10px] font-bold bg-amber-100 text-amber-700 rounded-full">1 Open</span>
+            <span class="px-2 py-0.5 text-[10px] font-extrabold bg-emerald-100 text-emerald-800 rounded-full">1 Open</span>
           </a>
-          <a href="#founder" class="hover:text-blue-600 transition-colors">Founder</a>
+          <a href="#founder" class="hover:text-blue-600 transition-colors">Founder Profile</a>
           <a href="#contact" class="hover:text-blue-600 transition-colors">Contact</a>
         </nav>
 
-        <!-- CTA & Mobile Toggle -->
+        <!-- CTA and Hamburger -->
         <div class="flex items-center gap-3">
-          <a href="#openings" class="hidden sm:inline-flex items-center justify-center px-5 py-2.5 rounded-lg text-sm font-bold text-white bg-blue-600 hover:bg-blue-700 shadow-md hover:shadow-lg shadow-blue-600/25 transition-all">
-            <i class="fa-solid fa-bolt mr-2 text-amber-300"></i> View Openings
-          </a>
-          <!-- Mobile Hamburger -->
-          <button id="mobileMenuBtn" aria-label="Toggle Navigation Menu" class="md:hidden p-2 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-100 focus:outline-none">
+          <button onclick="openApplyModal('Swiggy Instamart', 'Picker & Packer')" class="hidden sm:inline-flex items-center justify-center px-5 py-2.5 rounded-xl text-sm font-bold text-white bg-blue-600 hover:bg-blue-700 shadow-md shadow-blue-600/25 transition-all">
+            <i class="fa-solid fa-paper-plane mr-2 text-xs"></i> Apply Now
+          </button>
+          
+          <button id="mobileMenuBtn" aria-label="Toggle navigation menu" class="md:hidden p-2.5 rounded-xl text-slate-700 hover:text-slate-900 hover:bg-slate-100 focus:outline-none transition-colors">
             <i class="fa-solid fa-bars text-xl" id="menuIcon"></i>
           </button>
         </div>
@@ -133,70 +133,68 @@
     </div>
 
     <!-- Mobile Drawer Menu -->
-    <div id="mobileMenu" class="hidden md:hidden border-t border-slate-100 bg-white px-4 pt-3 pb-6 space-y-3 shadow-xl">
-      <a href="#about" class="block px-3 py-2 rounded-md font-semibold text-slate-700 hover:bg-slate-50">About Us</a>
-      <a href="#services" class="block px-3 py-2 rounded-md font-semibold text-slate-700 hover:bg-slate-50">Consulting Services</a>
-      <a href="#openings" class="block px-3 py-2 rounded-md font-semibold text-blue-600 hover:bg-blue-50">Job Openings (Swiggy Active)</a>
-      <a href="#founder" class="block px-3 py-2 rounded-md font-semibold text-slate-700 hover:bg-slate-50">Founder Profile</a>
-      <a href="#contact" class="block px-3 py-2 rounded-md font-semibold text-slate-700 hover:bg-slate-50">Contact & Address</a>
+    <div id="mobileMenu" class="hidden md:hidden border-t border-slate-200 bg-white px-5 pt-4 pb-6 space-y-3 shadow-xl">
+      <a href="#about" class="block py-2 text-sm font-bold text-slate-700 hover:text-blue-600">About Us</a>
+      <a href="#services" class="block py-2 text-sm font-bold text-slate-700 hover:text-blue-600">Our Services</a>
+      <a href="#openings" class="block py-2 text-sm font-bold text-blue-600 hover:text-blue-700">Current Job Openings (Swiggy Active)</a>
+      <a href="#founder" class="block py-2 text-sm font-bold text-slate-700 hover:text-blue-600">Founder Profile (Muli Supriya Reddy)</a>
+      <a href="#contact" class="block py-2 text-sm font-bold text-slate-700 hover:text-blue-600">Contact & Office</a>
       <div class="pt-2">
-        <a href="#openings" class="w-full inline-flex items-center justify-center px-4 py-2.5 rounded-lg text-sm font-bold text-white bg-blue-600">
+        <button onclick="openApplyModal('Swiggy Instamart', 'Picker & Packer')" class="w-full py-3 rounded-xl text-sm font-bold text-white bg-blue-600 hover:bg-blue-700 text-center">
           Apply for Swiggy Instamart
-        </a>
+        </button>
       </div>
     </div>
   </header>
 
   <main class="flex-grow">
-    <!-- Hero Section -->
-    <section class="hero-mesh relative overflow-hidden py-16 md:py-24 border-b border-slate-200">
+    <section class="hero-glow relative overflow-hidden py-16 md:py-24 border-b border-slate-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           
           <div class="lg:col-span-7 space-y-6">
             <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs sm:text-sm font-bold">
-              <i class="fa-solid fa-map-pin text-rose-500"></i> Shamshabad, Hyderabad • Authorized Placement Partner
+              <i class="fa-solid fa-location-dot text-rose-500"></i> Shamshabad, Hyderabad • Premier Staffing Consultancy
             </div>
             
-            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 leading-[1.15] tracking-tight">
-              Empowering Talent, <br>
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900 leading-[1.12] tracking-tight">
+              Connecting Ambitious Talent With <br class="hidden sm:inline">
               <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-indigo-600 to-emerald-600">
-                Staffing Industry Leaders.
+                Industry-Leading Brands.
               </span>
             </h1>
 
-            <p class="text-lg text-slate-600 max-w-2xl font-normal leading-relaxed">
-              <strong>Mana Ashriya Services</strong> bridges dynamic job seekers from Shamshabad & across Hyderabad with top enterprise partners and fast-growing quick commerce giants. Fast onboarding, transparent placements, zero hassle.
+            <p class="text-base sm:text-lg text-slate-600 max-w-2xl font-normal leading-relaxed">
+              <strong>Mana Ashriya Services</strong> is Shamshabad’s trusted workforce and recruitment bridge. We connect verified job seekers across Greater Hyderabad with prestigious quick-commerce and corporate partners like <strong>Swiggy Instamart</strong>—ensuring fair pay, transparent placement, and steady career growth.
             </p>
 
-            <!-- Action buttons -->
             <div class="flex flex-wrap items-center gap-4 pt-2">
               <a href="#openings" class="inline-flex items-center px-7 py-3.5 rounded-xl font-bold text-base text-white bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 shadow-lg shadow-blue-500/25 transition-all transform hover:-translate-y-0.5">
-                <i class="fa-solid fa-user-plus mr-2.5"></i> Apply for Open Positions
+                <i class="fa-solid fa-briefcase mr-2.5"></i> View Active Openings
               </a>
-              <a href="#founder" class="inline-flex items-center px-6 py-3.5 rounded-xl font-bold text-base text-slate-700 bg-white border border-slate-300 hover:bg-slate-50 hover:border-slate-400 transition-all">
-                <i class="fa-solid fa-user-tie mr-2 text-slate-500"></i> Meet Our Founder
+              <a href="#founder" class="inline-flex items-center px-6 py-3.5 rounded-xl font-bold text-base text-slate-700 bg-white border border-slate-300 hover:bg-slate-50 transition-all">
+                <i class="fa-solid fa-user mr-2 text-slate-400"></i> Meet Founder
               </a>
             </div>
 
-            <!-- Trust Metrics -->
-            <div class="pt-8 grid grid-cols-3 gap-6 border-t border-slate-200/80">
+            <!-- Highlights / Stats -->
+            <div class="pt-8 grid grid-cols-3 gap-6 border-t border-slate-200">
               <div>
-                <div class="text-2xl sm:text-3xl font-extrabold text-slate-900">1,200+</div>
+                <div class="text-2xl sm:text-3xl font-extrabold text-slate-900">1,500+</div>
                 <div class="text-xs sm:text-sm font-medium text-slate-500">Candidates Placed</div>
               </div>
               <div>
-                <div class="text-2xl sm:text-3xl font-extrabold text-blue-600">24 - 48 Hrs</div>
-                <div class="text-xs sm:text-sm font-medium text-slate-500">Fast Interview Turnaround</div>
+                <div class="text-2xl sm:text-3xl font-extrabold text-blue-600">24-48 Hrs</div>
+                <div class="text-xs sm:text-sm font-medium text-slate-500">Quick Joining</div>
               </div>
               <div>
-                <div class="text-2xl sm:text-3xl font-extrabold text-emerald-600">100% Free</div>
-                <div class="text-xs sm:text-sm font-medium text-slate-500">Direct Candidate Support</div>
+                <div class="text-2xl sm:text-3xl font-extrabold text-emerald-600">₹0 Fee</div>
+                <div class="text-xs sm:text-sm font-medium text-slate-500">100% Free For Applicants</div>
               </div>
             </div>
           </div>
 
-          <!-- Hero Graphic Card: Live Opportunity Spotlight -->
+          <!-- Featured Spotlight Box -->
           <div class="lg:col-span-5">
             <div class="relative mx-auto max-w-md">
               <div class="absolute -inset-1.5 bg-gradient-to-r from-blue-600 to-emerald-500 rounded-3xl blur opacity-30"></div>
@@ -208,7 +206,7 @@
                       <i class="fa-solid fa-basket-shopping"></i>
                     </div>
                     <div>
-                      <span class="text-xs font-bold uppercase tracking-wider text-orange-600">Spotlight Drive</span>
+                      <span class="text-[11px] font-extrabold uppercase tracking-wider text-orange-600">Spotlight Partner</span>
                       <h3 class="text-lg font-bold text-slate-900">Swiggy Instamart</h3>
                     </div>
                   </div>
@@ -217,9 +215,9 @@
                   </span>
                 </div>
 
-                <div class="py-5 space-y-3.5">
+                <div class="py-5 space-y-3">
                   <div class="flex items-center justify-between text-sm">
-                    <span class="text-slate-500">Designation:</span>
+                    <span class="text-slate-500">Position:</span>
                     <span class="font-bold text-slate-800">Picker & Packer</span>
                   </div>
                   <div class="flex items-center justify-between text-sm">
@@ -227,8 +225,8 @@
                     <span class="font-extrabold text-emerald-600 text-base">₹16,000 - ₹20,000</span>
                   </div>
                   <div class="flex items-center justify-between text-sm">
-                    <span class="text-slate-500">Key Benefit:</span>
-                    <span class="font-semibold text-blue-700 bg-blue-50 px-2 py-0.5 rounded">Room Allowance Included</span>
+                    <span class="text-slate-500">Perk:</span>
+                    <span class="font-semibold text-blue-700 bg-blue-50 px-2 py-0.5 rounded text-xs">Room Allowance Included</span>
                   </div>
                   <div class="flex items-center justify-between text-sm">
                     <span class="text-slate-500">Location:</span>
@@ -237,11 +235,11 @@
                 </div>
 
                 <button onclick="openApplyModal('Swiggy Instamart', 'Picker & Packer')" class="w-full py-3.5 px-4 rounded-xl bg-slate-900 hover:bg-blue-600 text-white font-bold text-sm tracking-wide transition-colors flex items-center justify-center gap-2 shadow-md">
-                  <span>Fast Apply via Form</span>
+                  <span>Fast Apply Online</span>
                   <i class="fa-solid fa-arrow-right text-xs"></i>
                 </button>
                 <p class="text-center text-xs text-slate-400 mt-3 font-medium">
-                  Verified Opening • Immediate Joining Available
+                  Direct recruitment verified by Mana Ashriya Services
                 </p>
               </div>
             </div>
@@ -254,14 +252,14 @@
     <section id="services" class="py-16 sm:py-20 bg-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center max-w-3xl mx-auto mb-16">
-          <span class="text-xs sm:text-sm font-extrabold uppercase tracking-wider text-blue-600 bg-blue-50 px-3 py-1 rounded-full">
-            Our Consultancy Expertise
+          <span class="text-xs sm:text-sm font-extrabold uppercase tracking-wider text-blue-600 bg-blue-50 px-3.5 py-1 rounded-full">
+            Consultancy Solutions
           </span>
-          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3 mb-4">
-            Reliable Workforce & Recruitment Solutions
+          <h2 class="text-3xl sm:text-4xl font-black text-slate-900 mt-3 mb-4">
+            Specialized Workforce & Staffing Services
           </h2>
-          <p class="text-base text-slate-600">
-            Based in Shamshabad, Mana Ashriya Services is a dedicated consulting link between high-growth corporate enterprises and job seekers across Hyderabad.
+          <p class="text-base text-slate-600 leading-relaxed">
+            Headquartered in Shamshabad, Mana Ashriya Services serves as a vital recruitment hub bridging corporate enterprises and grassroots job seekers throughout Hyderabad.
           </p>
         </div>
 
@@ -269,16 +267,16 @@
           <!-- Card 1 -->
           <div class="p-8 rounded-2xl bg-slate-50 hover:bg-white border border-slate-200 hover:border-blue-400 shadow-sm hover:shadow-xl transition-all duration-300">
             <div class="w-14 h-14 rounded-2xl bg-blue-100 text-blue-600 flex items-center justify-center text-2xl mb-6">
-              <i class="fa-solid fa-boxes-packing"></i>
+              <i class="fa-solid fa-dolly"></i>
             </div>
             <h3 class="text-xl font-bold text-slate-900 mb-3">Warehouse & Quick-Commerce</h3>
             <p class="text-slate-600 text-sm leading-relaxed mb-4">
-              End-to-end recruitment for dark stores, logistics centers, pickers, packers, inventory handlers, and sortation executives for quick-commerce apps.
+              Comprehensive hiring for dark stores, sorting centers, pickers, packers, loader-unloaders, and inventory handlers across Hyderabad’s quick-commerce giants.
             </p>
             <ul class="text-xs font-semibold text-slate-700 space-y-2">
-              <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Bulk Onboarding</li>
-              <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Multi-Shift Allocation</li>
-              <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Background Verified</li>
+              <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Multi-Shift Rotational Staffing</li>
+              <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Bulk Mobilization within 48 Hrs</li>
+              <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Dark Store Experience Candidates</li>
             </ul>
           </div>
 
@@ -287,30 +285,30 @@
             <div class="w-14 h-14 rounded-2xl bg-emerald-100 text-emerald-600 flex items-center justify-center text-2xl mb-6">
               <i class="fa-solid fa-users-gear"></i>
             </div>
-            <h3 class="text-xl font-bold text-slate-900 mb-3">Frontline & Blue-Collar Staffing</h3>
+            <h3 class="text-xl font-bold text-slate-900 mb-3">Grassroots & Frontline Staffing</h3>
             <p class="text-slate-600 text-sm leading-relaxed mb-4">
-              We empower local youth from Shamshabad, Rajendranagar, LB Nagar, and all hubs in Hyderabad with legitimate career opportunities and fixed salaries.
+              We empower youth from Shamshabad, Rajendranagar, LB Nagar, and rural belts with legitimate jobs, fixed monthly salaries, and workplace protections.
             </p>
             <ul class="text-xs font-semibold text-slate-700 space-y-2">
-              <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Minimum SSC/Inter to Graduates</li>
-              <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Accommodation & Food Guidance</li>
-              <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Quick Document Verification</li>
+              <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>SSC & Intermediate Eligible</li>
+              <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Room & Hostel Allowance Guidance</li>
+              <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Full KYC & Document Support</li>
             </ul>
           </div>
 
           <!-- Card 3 -->
           <div class="p-8 rounded-2xl bg-slate-50 hover:bg-white border border-slate-200 hover:border-indigo-400 shadow-sm hover:shadow-xl transition-all duration-300">
             <div class="w-14 h-14 rounded-2xl bg-indigo-100 text-indigo-600 flex items-center justify-center text-2xl mb-6">
-              <i class="fa-solid fa-handshake"></i>
+              <i class="fa-solid fa-handshake-angle"></i>
             </div>
-            <h3 class="text-xl font-bold text-slate-900 mb-3">Corporate Partner Hiring</h3>
+            <h3 class="text-xl font-bold text-slate-900 mb-3">Corporate Partner Consulting</h3>
             <p class="text-slate-600 text-sm leading-relaxed mb-4">
-              Tailored talent acquisition for retail networks, supply chain hubs, facility managers, and customer support desks needing reliable operational staffing.
+              End-to-end talent sourcing, candidate pre-screening, interview coordination, and onboarding management tailored for corporate supply chain networks.
             </p>
             <ul class="text-xs font-semibold text-slate-700 space-y-2">
-              <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Zero Recruitment Cost for Candidates</li>
-              <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>SLA-Compliant Turnaround</li>
-              <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Dedicated Account Coordinator</li>
+              <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Zero Cost to Job Seekers</li>
+              <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Dedicated Shamshabad Desk</li>
+              <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>SLA-driven Candidate Turnaround</li>
             </ul>
           </div>
         </div>
@@ -322,20 +320,20 @@
         
         <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
           <div>
-            <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-bold uppercase tracking-wide mb-2">
-              <i class="fa-solid fa-fire text-amber-500"></i> Partner Openings
+            <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-bold uppercase tracking-wider mb-2">
+              <i class="fa-solid fa-fire text-amber-500"></i> Current Openings
             </div>
-            <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900">
-              Current Career Opportunities
+            <h2 class="text-3xl sm:text-4xl font-black text-slate-900">
+              Verified Partner Job Drives
             </h2>
             <p class="text-slate-600 text-sm sm:text-base mt-2 max-w-2xl">
-              Explore active jobs verified by Mana Ashriya Services. Contact us immediately or submit the form for rapid scheduling.
+              Apply directly through Mana Ashriya Services. Transparent process, verified monthly salaries, zero agent fee.
             </p>
           </div>
           <div class="mt-4 md:mt-0">
-            <span class="text-xs font-medium text-slate-500 bg-white px-3 py-2 rounded-lg border border-slate-200 shadow-sm inline-flex items-center">
+            <span class="text-xs font-bold text-slate-600 bg-white px-3.5 py-2 rounded-xl border border-slate-200 shadow-sm inline-flex items-center">
               <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 mr-2 inline-block animate-pulse"></span>
-              Live Database Updated Daily
+              Live Opening Active Today
             </span>
           </div>
         </div>
@@ -345,8 +343,8 @@
           
           <!-- FEATURED LIVE OPENING: Swiggy Instamart -->
           <div class="lg:col-span-2 bg-white rounded-3xl p-6 sm:p-8 border-2 border-blue-500 shadow-xl relative overflow-hidden flex flex-col justify-between">
-            <div class="absolute top-0 right-0 bg-gradient-to-l from-orange-500 to-amber-500 text-white font-bold text-xs px-5 py-1.5 rounded-bl-2xl uppercase tracking-wider shadow-sm">
-              Featured • Immediate Joining
+            <div class="absolute top-0 right-0 bg-gradient-to-l from-orange-500 to-amber-500 text-white font-black text-xs px-5 py-1.5 rounded-bl-2xl uppercase tracking-wider shadow-sm">
+              Featured Drive • Immediate Joining
             </div>
 
             <div>
@@ -357,10 +355,10 @@
                 </div>
                 <div>
                   <div class="flex items-center gap-2">
-                    <span class="text-xs font-extrabold text-orange-600 uppercase tracking-wider">Hiring Partner</span>
+                    <span class="text-xs font-extrabold text-orange-600 uppercase tracking-wider">Verified Hiring Partner</span>
                     <span class="text-xs bg-slate-100 text-slate-600 font-semibold px-2 py-0.5 rounded">Full-Time</span>
                   </div>
-                  <h3 class="text-2xl sm:text-3xl font-extrabold text-slate-900">Swiggy Instamart</h3>
+                  <h3 class="text-2xl sm:text-3xl font-black text-slate-900">Swiggy Instamart</h3>
                   <p class="text-blue-700 font-bold text-lg">Designation: Picker & Packer</p>
                 </div>
               </div>
@@ -373,10 +371,10 @@
                 </div>
                 <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-100">
                   <span class="block text-xs text-slate-400 font-medium">Qualification</span>
-                  <span class="font-bold text-slate-800">SSC, Inter pass/fail</span>
+                  <span class="font-bold text-slate-800">SSC, Inter (Pass/Fail)</span>
                 </div>
                 <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-100">
-                  <span class="block text-xs text-slate-400 font-medium">Age Eligibility</span>
+                  <span class="block text-xs text-slate-400 font-medium">Age Limit</span>
                   <span class="font-bold text-slate-800">18 - 32 Years</span>
                 </div>
                 <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-100">
@@ -388,7 +386,7 @@
                   <span class="font-bold text-slate-800">9 Hours Duty</span>
                 </div>
                 <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-100">
-                  <span class="block text-xs text-slate-400 font-medium">Shifts</span>
+                  <span class="block text-xs text-slate-400 font-medium">Shift Type</span>
                   <span class="font-bold text-slate-800">Rotational Shifts</span>
                 </div>
               </div>
@@ -397,11 +395,11 @@
               <div class="p-4 rounded-2xl bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-100 mb-6 space-y-2">
                 <div class="flex items-center text-sm font-semibold text-slate-700">
                   <i class="fa-solid fa-map-location-dot text-blue-600 mr-2.5"></i>
-                  <span><strong>Work Locations:</strong> All over Hyderabad (multiple hubs close to your area)</span>
+                  <span><strong>Work Locations:</strong> All over Hyderabad (Dark store allocated nearest to your area)</span>
                 </div>
                 <div class="flex items-center text-sm font-semibold text-emerald-700">
                   <i class="fa-solid fa-house-chimney text-emerald-600 mr-2.5"></i>
-                  <span><strong>Accommodation Support:</strong> Room Allowance Available</span>
+                  <span><strong>Perk Support:</strong> Room Allowance Available</span>
                 </div>
               </div>
             </div>
@@ -410,13 +408,13 @@
             <div class="pt-4 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-4">
               <div class="flex items-center gap-3 w-full sm:w-auto">
                 <button onclick="openApplyModal('Swiggy Instamart', 'Picker & Packer')" class="flex-1 sm:flex-initial inline-flex items-center justify-center px-6 py-3.5 rounded-xl text-white bg-blue-600 hover:bg-blue-700 font-bold text-sm shadow-md shadow-blue-500/25 transition-all">
-                  <i class="fa-solid fa-paper-plane mr-2"></i> Apply Now Online
+                  <i class="fa-solid fa-paper-plane mr-2"></i> Apply Online Form
                 </button>
                 <a href="https://wa.me/919876543210?text=Hi%20Mana%20Ashriya%20Services,%20I%20am%20interested%20in%20the%20Swiggy%20Instamart%20Picker%20Packer%20Job" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 py-3.5 rounded-xl text-emerald-700 bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 font-bold text-sm transition-all" title="Apply via WhatsApp">
                   <i class="fa-brands fa-whatsapp text-lg mr-1.5"></i> WhatsApp Apply
                 </a>
               </div>
-              <span class="text-xs text-slate-400 font-medium">Hiring by Mana Ashriya Services</span>
+              <span class="text-xs text-slate-400 font-medium">Hiring managed by Mana Ashriya Services</span>
             </div>
           </div>
 
@@ -433,7 +431,7 @@
                   <i class="fa-regular fa-clock mr-1"></i> Coming Soon
                 </span>
               </div>
-              <h4 class="text-base font-bold text-slate-800">E-Commerce Hub Supervisor</h4>
+              <h4 class="text-base font-bold text-slate-800">Warehouse Shift Supervisor</h4>
               <p class="text-xs text-slate-500 mt-1 mb-4">Shamshabad Airport cargo & regional logistics cluster.</p>
               <div class="flex items-center justify-between text-xs text-slate-400 font-semibold border-t border-slate-100 pt-3">
                 <span>Qualification: Graduate</span>
@@ -451,7 +449,7 @@
                   <i class="fa-regular fa-clock mr-1"></i> Coming Soon
                 </span>
               </div>
-              <h4 class="text-base font-bold text-slate-800">Delivery Fleet Partners</h4>
+              <h4 class="text-base font-bold text-slate-800">Delivery Fleet Executive</h4>
               <p class="text-xs text-slate-500 mt-1 mb-4">Electric two-wheeler deliveries with fuel incentives.</p>
               <div class="flex items-center justify-between text-xs text-slate-400 font-semibold border-t border-slate-100 pt-3">
                 <span>All Hyderabad Hubs</span>
@@ -469,7 +467,7 @@
                   <i class="fa-regular fa-clock mr-1"></i> Coming Soon
                 </span>
               </div>
-              <h4 class="text-base font-bold text-slate-800">Telugu / Hindi Customer Support</h4>
+              <h4 class="text-base font-bold text-slate-800">Telugu / Hindi Support Associate</h4>
               <p class="text-xs text-slate-500 mt-1 mb-4">Voice & non-voice inbound support for Hyderabad office.</p>
               <div class="flex items-center justify-between text-xs text-slate-400 font-semibold border-t border-slate-100 pt-3">
                 <span>Qualification: Inter / Any</span>
@@ -493,7 +491,7 @@
 
           <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center relative z-10">
             
-            <!-- Founder Photograph & Image Uploader Tool -->
+            <!-- Founder Photograph -->
             <div class="lg:col-span-5 flex flex-col items-center">
               <div class="relative group">
                 <!-- Outer Border Ring -->
@@ -502,37 +500,29 @@
                   <!-- Founder Image Container -->
                   <div class="w-full h-full rounded-2xl overflow-hidden bg-slate-800 relative flex items-center justify-center">
                     
-                    <!-- 
-                      ===========================================================
-                      GITHUB HOSTING INSTRUCTION FOR FOUNDER'S PHOTO:
-                      To host her real photo permanently on GitHub:
-                      1. Place her photo in your repo, e.g. `images/supriya-reddy.jpg`
-                      2. Change the `src` attribute below to that path:
-                         src="images/supriya-reddy.jpg"
-                      ===========================================================
-                    -->
+                    <!-- Direct Founder Image reference to founder.jpeg -->
                     <img id="founderPhoto" 
-                         src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=700&q=80" 
-                         alt="Muli Supriya Reddy - Founder, Mana Ashriya Services" 
+                         src="founder.jpeg" 
+                         alt="Muli Supriya Reddy - Founder & Managing Director, Mana Ashriya Services" 
                          class="w-full h-full object-cover object-top transition duration-500 group-hover:scale-105"
-                         onerror="this.src='https://placehold.co/600x700/1e293b/ffffff?text=Muli+Supriya+Reddy'">
+                         onerror="this.onerror=null; this.src='https://placehold.co/600x700/1e293b/ffffff?text=Muli+Supriya+Reddy'">
 
                     <!-- Badge overlay -->
-                    <div class="absolute bottom-3 left-3 right-3 bg-slate-900/80 backdrop-blur-md px-3 py-2 rounded-xl border border-white/10 text-center">
-                      <p class="text-xs font-bold text-amber-300 uppercase tracking-widest">Leadership</p>
-                      <p class="text-xs text-slate-300">Mana Ashriya Services</p>
+                    <div class="absolute bottom-3 left-3 right-3 bg-slate-900/85 backdrop-blur-md px-3 py-2 rounded-xl border border-white/10 text-center">
+                      <p class="text-[11px] font-black text-amber-300 uppercase tracking-widest">Leadership</p>
+                      <p class="text-xs text-slate-200 font-semibold">Mana Ashriya Services</p>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <!-- Live Photo Switcher for Instant Preview before GitHub commit -->
+              <!-- Quick File Verification Tool for local testing before commit -->
               <div class="mt-4 text-center">
                 <label for="photoUploader" class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-white/10 hover:bg-white/20 text-slate-200 border border-white/20 cursor-pointer transition">
-                  <i class="fa-solid fa-camera"></i> Preview Your Photo File
+                  <i class="fa-solid fa-camera"></i> Test Another Photo Locally
                 </label>
                 <input type="file" id="photoUploader" accept="image/*" class="hidden" onchange="previewLocalPhoto(event)">
-                <p class="text-[11px] text-slate-400 mt-1">Click to test your local photo instantly on this page</p>
+                <p class="text-[11px] text-slate-400 mt-1">Configured directly for <code>founder.jpeg</code></p>
               </div>
             </div>
 
@@ -587,7 +577,92 @@
       </div>
     </section>
 
-    <section id="contact" class="py-16 bg-slate-50 border-t border-slate-200">
+    <section id="about" class="py-16 sm:py-20 bg-slate-50 border-t border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+          
+          <div class="lg:col-span-6 space-y-5">
+            <span class="text-xs font-bold uppercase tracking-wider text-blue-600 bg-blue-100 px-3 py-1 rounded-full">
+              Strategic Location Advantage
+            </span>
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 leading-tight">
+              Why Shamshabad Makes Us Hyderabad’s Fastest Staffing Hub
+            </h2>
+            <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+              Situated near Rajiv Gandhi International Airport and the Outer Ring Road (ORR) logistics belt, <strong>Mana Ashriya Services</strong> has immediate proximity to large-scale dark stores, fulfilment clusters, and regional distribution nodes.
+            </p>
+            <div class="space-y-3 pt-2">
+              <div class="flex items-start gap-3">
+                <div class="w-6 h-6 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0 mt-0.5 text-xs">
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <p class="text-xs sm:text-sm text-slate-700 font-medium">
+                  <strong>Local Candidate Pipeline:</strong> Direct reach across Shamshabad, Rajendranagar, LB Nagar, and adjacent districts.
+                </p>
+              </div>
+              <div class="flex items-start gap-3">
+                <div class="w-6 h-6 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0 mt-0.5 text-xs">
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <p class="text-xs sm:text-sm text-slate-700 font-medium">
+                  <strong>Rapid Document Verification:</strong> Walk-in office support for instant Aadhaar, bank, and KYC completion.
+                </p>
+              </div>
+              <div class="flex items-start gap-3">
+                <div class="w-6 h-6 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0 mt-0.5 text-xs">
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <p class="text-xs sm:text-sm text-slate-700 font-medium">
+                  <strong>Hostel & Accommodation Guidance:</strong> Assisting candidates from outside Hyderabad to secure rooms near their assigned dark store.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-6">
+            <div class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm relative">
+              <h3 class="text-xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+                <i class="fa-solid fa-shield-halved text-blue-600"></i> Our 4-Step Placement Process
+              </h3>
+              
+              <div class="space-y-6 relative before:absolute before:inset-0 before:left-3 before:w-0.5 before:bg-slate-200">
+                <div class="flex items-start gap-4 relative">
+                  <span class="w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold flex items-center justify-center ring-4 ring-white shrink-0">1</span>
+                  <div>
+                    <h4 class="font-bold text-sm text-slate-800">Direct Application</h4>
+                    <p class="text-xs text-slate-500 mt-0.5">Submit online form or WhatsApp with basic education and Aadhaar.</p>
+                  </div>
+                </div>
+                <div class="flex items-start gap-4 relative">
+                  <span class="w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold flex items-center justify-center ring-4 ring-white shrink-0">2</span>
+                  <div>
+                    <h4 class="font-bold text-sm text-slate-800">Counseling & Screening</h4>
+                    <p class="text-xs text-slate-500 mt-0.5">Phone or in-person check by Mana Ashriya Shamshabad coordinators.</p>
+                  </div>
+                </div>
+                <div class="flex items-start gap-4 relative">
+                  <span class="w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold flex items-center justify-center ring-4 ring-white shrink-0">3</span>
+                  <div>
+                    <h4 class="font-bold text-sm text-slate-800">Interview with Partner</h4>
+                    <p class="text-xs text-slate-500 mt-0.5">Slot assigned at Swiggy Instamart hub matching candidate preference.</p>
+                  </div>
+                </div>
+                <div class="flex items-start gap-4 relative">
+                  <span class="w-6 h-6 rounded-full bg-emerald-600 text-white text-xs font-bold flex items-center justify-center ring-4 ring-white shrink-0">4</span>
+                  <div>
+                    <h4 class="font-bold text-sm text-slate-800">Onboarding & Duty Start</h4>
+                    <p class="text-xs text-slate-500 mt-0.5">Immediate joining with uniform, safety briefing, and salary schedule.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-16 bg-white border-t border-slate-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
           
@@ -601,12 +676,12 @@
                 Visit Our Office in Shamshabad
               </h2>
               <p class="text-slate-600 text-sm mt-2">
-                Whether you are an aspiring candidate looking for a job or a corporate partner seeking bulk staffing in Hyderabad, our consulting desk is ready to assist.
+                Whether you are a job candidate seeking employment or an enterprise hiring in Hyderabad, our consulting desk is ready to assist.
               </p>
             </div>
 
             <div class="space-y-4">
-              <div class="flex items-start space-x-4 bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+              <div class="flex items-start space-x-4 bg-slate-50 p-4 rounded-xl border border-slate-200 shadow-sm">
                 <div class="w-10 h-10 rounded-lg bg-blue-50 text-blue-600 flex items-center justify-center shrink-0">
                   <i class="fa-solid fa-location-dot"></i>
                 </div>
@@ -618,7 +693,7 @@
                 </div>
               </div>
 
-              <div class="flex items-start space-x-4 bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+              <div class="flex items-start space-x-4 bg-slate-50 p-4 rounded-xl border border-slate-200 shadow-sm">
                 <div class="w-10 h-10 rounded-lg bg-emerald-50 text-emerald-600 flex items-center justify-center shrink-0">
                   <i class="fa-solid fa-phone"></i>
                 </div>
@@ -633,7 +708,7 @@
                 </div>
               </div>
 
-              <div class="flex items-start space-x-4 bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+              <div class="flex items-start space-x-4 bg-slate-50 p-4 rounded-xl border border-slate-200 shadow-sm">
                 <div class="w-10 h-10 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center shrink-0">
                   <i class="fa-solid fa-envelope"></i>
                 </div>
@@ -649,7 +724,7 @@
             <!-- Quick WhatsApp Action Card -->
             <div class="p-4 rounded-2xl bg-emerald-600 text-white flex items-center justify-between shadow-md">
               <div>
-                <p class="text-xs font-bold uppercase tracking-wider text-emerald-200">Instant Chat</p>
+                <p class="text-xs font-bold uppercase tracking-wider text-emerald-200">Instant Helpdesk</p>
                 <p class="text-sm font-extrabold">Need Quick Hiring Guidance?</p>
               </div>
               <a href="https://wa.me/919876543210?text=Hi%20Mana%20Ashriya%20Services,%20I%20have%20an%20inquiry" target="_blank" rel="noopener noreferrer" class="px-3.5 py-2 rounded-lg bg-white text-emerald-700 font-bold text-xs hover:bg-emerald-50 transition shadow">
@@ -661,7 +736,7 @@
 
           <!-- Quick General Inquiry Form -->
           <div class="lg:col-span-7">
-            <div class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-sm">
+            <div class="bg-slate-50 rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-sm">
               <h3 class="text-xl font-bold text-slate-900 mb-1">Send a Message to Our Consulting Team</h3>
               <p class="text-xs text-slate-500 mb-6">Fill in your details and our team will get back to you within 24 working hours.</p>
 
@@ -669,11 +744,11 @@
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
                     <label class="block text-xs font-bold text-slate-700 mb-1">Your Full Name *</label>
-                    <input type="text" required placeholder="e.g. Rahul Sharma" class="w-full text-sm px-3.5 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <input type="text" required placeholder="e.g. Rahul Sharma" class="w-full text-sm px-3.5 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white">
                   </div>
                   <div>
                     <label class="block text-xs font-bold text-slate-700 mb-1">Phone Number *</label>
-                    <input type="tel" required placeholder="e.g. 9876543210" class="w-full text-sm px-3.5 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <input type="tel" required placeholder="e.g. 9876543210" class="w-full text-sm px-3.5 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white">
                   </div>
                 </div>
 
@@ -688,13 +763,13 @@
                   </div>
                   <div>
                     <label class="block text-xs font-bold text-slate-700 mb-1">Your Location in Hyderabad</label>
-                    <input type="text" placeholder="e.g. Shamshabad, Mehdipatnam, Uppal" class="w-full text-sm px-3.5 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <input type="text" placeholder="e.g. Shamshabad, Mehdipatnam, Uppal" class="w-full text-sm px-3.5 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white">
                   </div>
                 </div>
 
                 <div>
                   <label class="block text-xs font-bold text-slate-700 mb-1">Your Message or Query</label>
-                  <textarea rows="3" placeholder="Briefly describe what you are looking for..." class="w-full text-sm px-3.5 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                  <textarea rows="3" placeholder="Briefly describe what you are looking for..." class="w-full text-sm px-3.5 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white"></textarea>
                 </div>
 
                 <button type="submit" class="w-full py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-md transition-all">
@@ -709,7 +784,6 @@
     </section>
   </main>
 
-  <!-- Interactive Job Application Modal -->
   <div id="applyModal" class="fixed inset-0 z-50 hidden bg-slate-900/60 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto">
     <div class="bg-white rounded-3xl max-w-lg w-full p-6 sm:p-8 shadow-2xl border border-slate-100 relative my-8 transform transition-all">
       
@@ -741,7 +815,7 @@
 
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
           <div>
-            <label class="block text-xs font-bold text-slate-700 mb-1">Mobile Calling Number *</label>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Calling Number *</label>
             <input type="tel" id="applicantPhone" required placeholder="10-digit phone" class="w-full text-sm px-3.5 py-2 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
           </div>
           <div>
@@ -753,7 +827,7 @@
         <div class="grid grid-cols-3 gap-3">
           <div>
             <label class="block text-xs font-bold text-slate-700 mb-1">Age *</label>
-            <input type="number" id="applicantAge" required min="18" max="35" placeholder="e.g. 22" class="w-full text-sm px-3.5 py-2 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <input type="number" id="applicantAge" required min="18" max="32" placeholder="e.g. 22" class="w-full text-sm px-3.5 py-2 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
           </div>
           <div>
             <label class="block text-xs font-bold text-slate-700 mb-1">Gender *</label>
@@ -781,7 +855,7 @@
             <input type="text" id="applicantLocation" required placeholder="e.g. Shamshabad, Kothapet" class="w-full text-sm px-3.5 py-2 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
           </div>
           <div>
-            <label class="block text-xs font-bold text-slate-700 mb-1">Need Room / Allowance?</label>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Need Room Allowance?</label>
             <select id="applicantRoom" class="w-full text-sm px-3 py-2 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white">
               <option value="Yes">Yes, I need room allowance</option>
               <option value="No">No, I have own accommodation</option>
@@ -790,7 +864,7 @@
         </div>
 
         <div>
-          <label class="block text-xs font-bold text-slate-700 mb-1">Any Prior Experience / Notes (Optional)</label>
+          <label class="block text-xs font-bold text-slate-700 mb-1">Prior Experience (Optional)</label>
           <input type="text" id="applicantNotes" placeholder="e.g. Fresher OR worked in warehouse for 6 months" class="w-full text-sm px-3.5 py-2 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
         </div>
 
@@ -802,7 +876,7 @@
         </div>
 
         <p class="text-center text-[11px] text-slate-400">
-          No charges collected from candidates • Mana Ashriya Services Shamshabad
+          Zero fee collected from candidates • Mana Ashriya Services Shamshabad
         </p>
       </form>
 
@@ -825,7 +899,6 @@
     </div>
   </div>
 
-  <!-- Footer -->
   <footer class="bg-slate-900 text-slate-400 text-xs border-t border-slate-800">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
@@ -863,7 +936,7 @@
           <h5 class="text-slate-200 font-bold text-xs uppercase tracking-wider mb-3">Consulting Hours</h5>
           <p class="text-slate-400 leading-relaxed">
             Monday - Saturday: 9:00 AM - 7:00 PM<br>
-            Sunday: Emergency Inquiries Only<br>
+            Sunday: Emergency Drives Only<br>
             Office: Shamshabad, Hyderabad (Near Airport Zone)
           </p>
           <div class="mt-3 flex items-center space-x-3 text-slate-300">
@@ -881,7 +954,7 @@
           © <span id="currentYear"></span> <strong>Mana Ashriya Services</strong>. All Rights Reserved. Founded by Muli Supriya Reddy.
         </div>
         <div class="text-[11px] text-slate-400 flex items-center gap-2">
-          <span>Ready for GitHub Pages (<code>index.html</code>)</span>
+          <span>Configured for <code>founder.jpeg</code></span>
           <span class="inline-block w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
         </div>
       </div>
@@ -889,7 +962,7 @@
   </footer>
 
   <script>
-    // Set current copyright year
+    // Set current copyright year dynamically
     document.getElementById('currentYear').textContent = new Date().getFullYear();
 
     // Mobile Menu Toggle
@@ -958,7 +1031,7 @@
       const room = document.getElementById('applicantRoom').value;
       const notes = document.getElementById('applicantNotes').value;
 
-      // Construct WhatsApp direct message so applicant or coordinator gets it instantly
+      // Construct WhatsApp direct message
       const textMessage = `*New Job Application - Mana Ashriya Services*%0A` +
         `*Position:* Swiggy Instamart (Picker & Packer)%0A` +
         `*Name:* ${encodeURIComponent(name)}%0A` +
@@ -972,12 +1045,12 @@
 
       // Update feedback view
       document.getElementById('successMessageDetails').innerHTML = 
-        `Thank you <strong>${name}</strong>! Your application for <strong>Swiggy Instamart</strong> has been saved. You can also send this directly via WhatsApp for instant scheduling.`;
+        `Thank you <strong>${name}</strong>! Your application for <strong>Swiggy Instamart</strong> has been captured. You can also forward these details directly via WhatsApp to our coordinator.`;
 
       jobApplicationForm.classList.add('hidden');
       modalSuccess.classList.remove('hidden');
 
-      // Add a quick direct WhatsApp send button dynamically if not present
+      // Add WhatsApp direct redirect button dynamically
       let waButton = document.getElementById('modalWaDirectBtn');
       if (!waButton) {
         waButton = document.createElement('a');
@@ -988,7 +1061,7 @@
         modalSuccess.appendChild(waButton);
       }
       waButton.href = `https://wa.me/919876543210?text=${textMessage}`;
-      waButton.innerHTML = `<i class="fa-brands fa-whatsapp mr-2 text-sm"></i> Click to Send Details on WhatsApp (+91 98765 43210)`;
+      waButton.innerHTML = `<i class="fa-brands fa-whatsapp mr-2 text-sm"></i> Send Application via WhatsApp (+91 98765 43210)`;
     }
 
     // Handle General Contact Form
@@ -1001,12 +1074,12 @@
             <i class="fa-solid fa-check"></i>
           </div>
           <h4 class="font-bold text-slate-800 text-base">Inquiry Submitted Successfully!</h4>
-          <p class="text-xs text-slate-600 mt-1">Our consulting representative from Shamshabad will contact you shortly.</p>
+          <p class="text-xs text-slate-600 mt-1">Our consulting team from Shamshabad will reach out to you within 24 hours.</p>
         </div>
       `;
     }
 
-    // Founder Photo Local Preview Switcher
+    // Local Photo Previewer Tool
     function previewLocalPhoto(event) {
       const file = event.target.files[0];
       if (file) {
